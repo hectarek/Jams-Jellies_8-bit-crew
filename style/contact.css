@@ -1,0 +1,94 @@
+
+
+  
+  .col-lg-6 {
+    left: 1000px;
+    bottom: 200px;
+    
+    opacity: 1.0;
+  } 
+  
+  .form-group {
+    margin-bottom: 60px;
+  }
+
+  .col-lg-7 {
+    top: 300px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+  }
+  /*h1 - Montserrat 800
+other headings - Montserrat 600
+p - Montserrat 400
+red - #ff5c5c
+blue - #161e67
+White - #ffffff
+*/
+/* General Elements */
+* {
+    box-sizing: border-box;
+} 
+body {
+    background-color:#fff; 
+} 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color:#FF5C5C;
+    font-size: 32px;
+}
+h2{
+    color:#FF5C5C;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+p, a, div{
+    font-weight: 400;
+    text-align: center;
+    color:#FF5C5C;
+  }
+ul {
+    list-style-type: none;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+}  
+nav ul li {
+    font-size: 18px;
+}
+/* Classes */
+.header {
+    background-color:#161E67;
+}
+.navbar a{
+    color: #fff;
+}
+nav a:hover {
+     background-color:darkgrey; 
+}
+.footer {
+    background-color:#161E67;
+}
+.card-body {
+    background: #161E67;
+} 
+#button1 {
+    background: #161E67;
+    border: none;
+}
+.card-header {
+    font-size: 24px;
+  }
+.card-header, .card-footer {
+    background: #161E67;
+}
+.btn-primary {
+  background-color: #ff5c5c;
+}
+  
