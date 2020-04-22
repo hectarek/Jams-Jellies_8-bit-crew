@@ -45,6 +45,10 @@ h2{
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
+#about{
+  font-size: 1.6em;
+  text-shadow: 1px 0px 0px #000000;
+}
 p, a, div{
     font-weight: 400;
     text-align: center;
