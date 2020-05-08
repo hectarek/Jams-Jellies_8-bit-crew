@@ -21,7 +21,6 @@
     <title>Products</title>
   </head>
   <body>
-    <!-- Testing branching -->
     <!-- Placeholder navbar - add finished navbar when Hector, Yami and Aisha finish it -->
     <div class="header container-fluid">
 
@@ -68,22 +67,24 @@
         </p>
       </div>
     </section>
+
     <div class="container mt-2">
       <div class="row">
         <!-- Grape Jelly -->
         <div class="col-md-3 col-sm-6 px-4">
           <div class="card item-card card-block">
-            <h4 class="item-card-title text-center">Grape Jelly</h4>
-            <img
-              src="./images/grapejelly.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Perfect for the kids. A combination of big, juicy green, red and
-              black grapes, with just a hint of sugar.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
+              <h4 class="item-card-title text-center">Grape Jelly</h4>
+              <img
+                src="./images/grapejelly.png"
+                class="card-image"
+                alt="Photo of sunset"
+              />
+              <p class="card-text text-center">
+                Perfect for the kids. A combination of big, juicy green, red and
+                black grapes, with just a hint of sugar.
+              </p>
+              <button class="btn btn-primary">Add to cart</button>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#grape">Info</button>
           </div>
         </div>
 
@@ -101,6 +102,7 @@
               every grocery store in the country.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#strawberry">Info</button>
           </div>
         </div>
 
@@ -118,6 +120,7 @@
               apples with the perfect apple pie spices.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#applebutter">Info</button>
           </div>
         </div>
 
@@ -135,6 +138,7 @@
               flavour is sinfully delicious.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#blackberry">Info</button>
           </div>
         </div>
       </div>
@@ -156,6 +160,7 @@
               blueberries with decadent flavor.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#blueberry">Info</button>
           </div>
         </div>
 
@@ -173,6 +178,7 @@
               a disservice if you miss out on this flavor.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#mixberry">Info</button>
           </div>
         </div>
 
@@ -190,6 +196,7 @@
               peppers drenched in adobo sauce.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#raspberry">Info</button>
           </div>
         </div>
 
@@ -209,6 +216,7 @@
               cinnamon, berries and spices.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#triple">Info</button>
           </div>
         </div>
       </div>
@@ -230,6 +238,7 @@
               blueberries, cinnamon, and strawberries.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#cinnamon-blueberry">Info</button>
           </div>
         </div>
 
@@ -248,6 +257,7 @@
               Prepared from organic cows cream, simmering ginger, and pears.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#ginger">Info</button>
           </div>
         </div>
 
@@ -265,6 +275,7 @@
               do ya.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#lemon">Info</button>
           </div>
         </div>
 
@@ -282,6 +293,7 @@
               raspberry beer! Jam pack jam.
             </p>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#superberry">Info</button>
           </div>
         </div>
       </div>
@@ -331,6 +343,246 @@
         </div>
       </div>
     </div>
+
+    <!-- MODALS -->
+
+        <!-- Grape modal -->
+        <div class="card item-card card-block modal fade" id="grape">
+          <div class="modal-dialog">
+            <div class="modal-content text-center">
+              <h4 class="item-card-title text-center modal-header">Grape Jelly - Nutritional Facts</h4>
+              <div class="modal-body">
+              <img
+                src="./images/grapejelly.png"
+                class="card-image"
+                alt="Photo of sunset"
+              />
+              <p class="card-text text-center">Nutritional Facts go here</p>
+              <button class="btn btn-primary">Add to cart</button>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Strawberry Modal -->
+          <div class="card item-card card-block modal fade" id="strawberry">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Strawberry Jelly</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/Strawberry.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Apple Butter Modal -->
+          <div class="card item-card card-block modal fade" id="applebutter">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Apple Butter</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/applebutter.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blackberry Jam Modal -->
+          <div class="card item-card card-block modal fade" id="blackberry">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Blackberry Jam</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/Blackberry.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blueberry Jam -->
+          <div class="card item-card card-block modal fade" id="blueberry">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Blueberry Jam</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/blueberry.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mixberry Jelly -->
+          <div class="card item-card card-block modal fade" id="mixberry">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Mixberry Jelly</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/mixberry.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Raspberry Jam -->
+          <div class="card item-card card-block modal fade" id="raspberry">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Raspberry Jelly</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/raspberry.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cinnamon Spiced Triple Berry Jam -->
+          <div class="card item-card card-block modal fade" id="triple">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Cinnamon Spiced Triple Berry Jam</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/Cinnamon-Spiced-Triple-Berry-Jam.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cinnamon Blueberry Jam -->
+          <div class="card item-card card-block modal fade" id="cinnamon-blueberry">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Cinnamon Blueberry Jam</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/cinnamonblueberry.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ginger Cardamom Pear Butter -->
+          <div class="card item-card card-block modal fade" id="ginger">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Ginger Cardamom Pear Butter</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/Ginger-Cardamom-Pear-Butter.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lemon Jam -->
+          <div class="card item-card card-block modal fade" id="lemon">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Lemon Jam</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/lemon.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Super Berry Jelly -->
+          <div class="card item-card card-block modal fade" id="superberry">
+            <div class="modal-dialog">
+              <div class="modal-content text-center">
+                <h4 class="item-card-title text-center modal-header">Super Berry Jelly</h4>
+                <div class="modal-body">
+                <img
+                  src="./images/superberry.png"
+                  class="card-image"
+                  alt="Photo of sunset"
+                />
+                <p class="card-text text-center">
+                  Nutritional Facts go here
+                </p>
+                <button class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
