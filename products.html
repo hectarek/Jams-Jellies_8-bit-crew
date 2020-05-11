@@ -21,44 +21,38 @@
     <title>Products</title>
   </head>
   <body>
-    <!-- Placeholder navbar - add finished navbar when Hector, Yami and Aisha finish it -->
-    <div class="header container-fluid">
-
-      <div class="row d-flex align-items-center"> 
-
-          <div class="col-sm-3 text-left">
-              <img src="./images/jamsjellieslogo.png" width="150px" height="150px">
-          </div>
-
-          <div class="col-sm-6 text-center my-2">
-              <h1>Maher & Hall's Famous <br> Jams and Jellies</h1>
-          </div>
-
-          <div class="col-sm-3 text-left">
-
-              <nav class="navbar navbar-expand-sm navbar-dark">
-                  <ul class="navbar-nav">
-                      <li class="nav-item active p-2">
-                          <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item active p-2">
-                          <a class="nav-link" href="products.html">Products</a>
-                      </li>
-                      <li class="nav-item active p-2">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-                  </ul>
-              </nav> 
-
-          </div>
-
+    
+    <nav class="navbar navbar-expand-md header navbar-dark">
+      <div class="d-flex order-0 m-2">
+        <button class="navbar-toggler btn-outline-light m-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mx-3" href="index.html"><img src="./images/jamsjellieslogo.png" width="120px" height="120px" /></a>
       </div>
-  </div>
-    <!-- placeholder nav ends here -->
+  
+      <span class="navbar-text navbar-brand mx-auto d-block text-center order-1 w-75 m-2">
+        <h1>Maher & Hall's Famous <br> Jams and Jellies</h1>
+      </span>
+  
+      <div class="collapse navbar-collapse justify-content-stretch order-2 m-2" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  
+    </nav>
 
     <section>
       <div class="container-fluid"></div>
-      <div class="jumbotron jumboheaderimg">
+      <div class="jumbotron jumboheaderimg" id="jumbo">
         <h1 class="display-4 text-center">
           Maher and Hall's Famous Jams and Jellies Company
         </h1>
@@ -222,7 +216,7 @@
       </div>
     </div>
 
-    <div class="container mt-2">
+    <div class="container mt-2 mb-2 pb-2">
       <div class="row">
         <!-- Cinnamon Blueberry Jam -->
         <div class="col-md-3 col-sm-6 px-4">
@@ -301,48 +295,48 @@
 
     <div class="footer container-fluid position-sticky">
       <div class="row d-flex align-items-center">
-        <div class="col-sm-2 text-left">
-          <img
-            src="./images/jamsjellieslogo.png"
-            width="100px"
-            height="100px"
-          />
-        </div>
-        <div class="col-sm-7 text-left">
-          <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g fa-lg mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Pinterest-->
-          <a class="pin-ic">
-            <i class="fab fa-pinterest fa-lg fa-2x"> </i>
-          </a>
-        </div>
-        <div class="col-sm-3 text-right">
-          <ul>
-            <li class="p-1">Address: 123 Pickup Truck Lane Charlotte, NC</li>
-            <li class="p-1">Phone Number:704-123-4567</li>
-            <li class="p-1">Email Address: info@MHJamsandJellies.com</li>
-          </ul>
-        </div>
+
+          <div class="col-md-2 my-2">
+            <img src="./images/jamsjellieslogo.png" width="100px" height="100px">
+          </div>
+
+          <div class="col-md-7 text-center my-2">
+              <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg fa-2x"> </i>
+            </a>
+          </div>
+
+          <div class="col-md-3 my-3 d-flex justify-content-center align-items-center">
+              <ul class="d-flex align-items-start flex-column">
+                <li class="p-2"> Address: 123 Pickup Truck Lane Charlotte, NC</li>
+                <li class="p-2"> Phone: 704-123-4567</li>
+                <li class="p-2"> Email: info@MHJamsandJellies.com</li>
+              </ul>
+          </div>
+
       </div>
-    </div>
+  </div>
 
     <!-- MODALS -->
 
@@ -357,7 +351,7 @@
                 class="card-image"
                 alt="Photo of sunset"
               />
-              <p class="card-text text-center">Nutritional Facts go here</p>
+              <p class="card-text text-center">Organic Sugar, Water, Organic Concord Grape Juice Concentrate, Citric Acid, Fruit Pectin</p>
               <button class="btn btn-primary">Add to cart</button>
             </div>
             </div>
@@ -376,7 +370,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Water, Organic Strawberries, Organic Cane Sugar, Citric Acid, Natural Flavor, Organic Fruit And Vegetable Juice [Color]
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -396,7 +390,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Apples, Cinnamon, Allspice, Brown Sugar, Honey
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -416,7 +410,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Organic Seedless Blackberry Puree, Organic Cane Sugar, Fruit Pectin
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -436,7 +430,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Organic Wild Blueberries, Organic Cane Sugar, Apple Pectin
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -456,7 +450,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Strawberries (Organic), Raspberries (Organic), Blueberries (Organic), Grape Puree (Organic), Water, Lemon Juice Concentrate (Organic), Dried Sugar Cane Syrup (Organic), Fruit Pectin 
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -476,7 +470,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Organic Cane Sugar, Organic Raspberries, Fruit Pectin, Citric Acid.
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -496,7 +490,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Berry Mix- (Organic Strawberries, Organic Blackberries, Organic Blueberries), Water, Organic Sugar, Fruit Pectin, Calcium Chloride, Citric Acid, Cinnamon, Allspice, Nutmeg
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -516,7 +510,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Organic Wild Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin, Ascorbic Acid (Vitamin C), Citric Acid.
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -536,7 +530,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Bartlett Pears, Organic Evaporated Cane Juice, Cardamom, Ginger, Lemon Juice, Salt
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -556,7 +550,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Meyer Lemons, Fresh Meyer Lemon Juice, Organic Cane Juice
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
@@ -576,7 +570,7 @@
                   alt="Photo of sunset"
                 />
                 <p class="card-text text-center">
-                  Nutritional Facts go here
+                  Wild Blueberries, Organic Strawberries, Organic Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin, Ascorbic Acid (Vitamin C), Citric Acid.
                 </p>
                 <button class="btn btn-primary">Add to cart</button>
                 </div>
