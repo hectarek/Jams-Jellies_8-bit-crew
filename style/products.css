@@ -1,5 +1,5 @@
 .jumboheaderimg {
-  background-color: #161e67;
+  background-color: #FFF;
   background-size: cover;
   color: #ff5c5c;
 }
@@ -39,6 +39,7 @@ p {
   transition: 0.5s;
   cursor: pointer;
 }
+
 .item-card-title {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -84,10 +85,6 @@ p {
   background-color:#161E67;
 }
 
-.header {
-  border-bottom: 4px solid #ff5c5c;
-  ;
-}
 
 nav ul li {
   font-size: 18px;
