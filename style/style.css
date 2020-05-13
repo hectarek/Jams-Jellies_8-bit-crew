@@ -88,6 +88,7 @@ nav ul li {
 .card-header, .card-footer {
     background: #161E67;
 }
+
 /* new style  */
 .carousel{
     background-color: #E9ECEF ;
@@ -108,9 +109,8 @@ nav ul li {
    padding-bottom:20px;
    padding-left:20px;
    padding-right:20px;
-   
-
 }
+
 .bs-example{
    margin: 40px;
 } 
