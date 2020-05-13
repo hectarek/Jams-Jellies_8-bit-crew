@@ -1,15 +1,12 @@
 /* 
  
 Style Guide:
-
 h1 - Montserrat 800
 other headings - Montserrat 600
 p - Montserrat 400
-
 red - #ff5c5c
 blue - #161e67
 White - #ffffff
-
 */
 
 
@@ -87,5 +84,29 @@ nav a:hover {
 .card-header, .card-footer {
     background: #161E67;
 }
+/* new style  */
+.carousel{
+    background-color: #E9ECEF ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+   
+.carousel-item{
+   text-align: center;
+   position: relative;
+   min-height: 280px;
+   font-size:20px;
+   padding-top:20px;
+   padding-bottom:20px;
+   padding-left:20px;
+   padding-right:20px;
+   
 
-  
+}
+.bs-example{
+   margin: 40px;
+} 
