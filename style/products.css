@@ -17,7 +17,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   color: #ff5c5c;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 h4 {
@@ -93,9 +93,6 @@ nav ul li {
   font-size: 18px;
 }
 
-nav a:hover {
-  background-color:darkgrey; 
-}
 
 ul {
   list-style-type: none;
