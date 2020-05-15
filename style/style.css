@@ -1,6 +1,6 @@
 /* 
  
-Style Guide:
+Required Style Guide:
 h1 - Montserrat 800
 other headings - Montserrat 600
 p - Montserrat 400
@@ -14,6 +14,8 @@ White - #ffffff
 * {
   box-sizing: border-box;
 }
+
+/* Elements */
 
 body {
   background-color: #fff;
@@ -32,6 +34,18 @@ h2 {
   text-align: center;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: #ff5c5c;
+}
+
+h4 {
+  color: #161e67;
+}
+
+h5 {
+  text-align: justify;
 }
 
 p,
@@ -54,6 +68,16 @@ li {
   text-align: left;
 }
 
+button {
+  background-color: #ff5c5c;
+}
+
+i {
+  color: #ff5c5c;
+}
+
+/* Classes */
+
 .hr {
   background-color: #161e67;
   height: 5px;
@@ -61,13 +85,17 @@ li {
   border-radius: 25px;
 }
 
-nav ul li {
-  font-size: 18px;
-}
-/* Classes */
-
 .navbar a {
   color: #fff;
+}
+
+.btn {
+  background-color: #161e67;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #ff5c5c;
 }
 
 .header,
@@ -90,7 +118,6 @@ nav ul li {
   background: #161e67;
 }
 
-/* new style  */
 .carousel {
   background-color: #e9ecef;
   margin-top: 40px;
@@ -114,4 +141,80 @@ nav ul li {
 
 .bs-example {
   margin: 40px;
+}
+
+.gap100 {
+  padding: 100px 100px;
+}
+
+.col-md-6 {
+  color: white;
+}
+
+.jumboheaderimg {
+  background-color: #fff;
+  background-size: cover;
+  color: #ff5c5c;
+}
+
+.card-image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.item-card {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.item-card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.card-text {
+  height: 80px;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: "";
+  pointer-events: none;
+}
+
+.card::before {
+  transform-origin: left top;
+}
+
+.card::after {
+  transform-origin: right bottom;
+}
+
+.card:hover::before,
+.card:hover::after,
+.card:focus::before,
+.card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+
+.jellyphoto {
+  background-image: url("../images/jelly.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
