@@ -69,7 +69,7 @@ li {
 }
 
 button {
-  background-color: #ff5c5c;
+  background-color: #161e67;
 }
 
 i {
@@ -181,6 +181,7 @@ i {
 }
 .card-text {
   height: 80px;
+  color: #161e67;
 }
 
 .card::before,
