@@ -1,242 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style/products.css" />
-    <title>Products</title>
-  </head>
-  <body>
-    
-    <nav class="navbar navbar-expand-lg header navbar-dark">
 
-      <div class="d-flex order-0 m-2">
-        <button class="navbar-toggler btn-outline-light m-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand mx-3" href="index.html"><img src="./images/jamsjellieslogo.png" width="120px" height="120px" /></a>
-      </div>
-  
-      <span class="navbar-text navbar-brand mx-auto d-block text-center order-1 w-75 m-2">
-        <h1>Maher & Hall's Famous <br> Jams and Jellies</h1>
-      </span>
-  
-      <div class="collapse navbar-collapse justify-content-stretch order-2 m-2" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="products.html">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-  
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/products.css" />
+  <title>Products</title>
+</head>
 
-      <div class="container">
-        <div class="jumbotron jumboheaderimg" id="jumbo">
-          <h1 class="display-4 text-center"> Jams and Jellies Shop</h1>
-          <p class="lead text-center">Why have any other Jam?</p>
+<body>
+
+  <nav class="navbar navbar-expand-lg header navbar-dark">
+
+    <div class="d-flex order-0 m-2">
+      <button class="navbar-toggler btn-outline-light m-4" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-3" href="index.html"><img src="./images/jamsjellieslogo.png" width="120px"
+          height="120px" /></a>
+    </div>
+
+    <span class="navbar-text navbar-brand mx-auto d-block text-center order-1 w-75 m-2">
+      <h1>Maher & Hall's Famous <br> Jams and Jellies</h1>
+    </span>
+
+    <div class="collapse navbar-collapse justify-content-stretch order-2 m-2" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron jumboheaderimg" id="jumbo">
+      <h1 class="display-4 text-center"> Jams and Jellies Shop</h1>
+      <p class="lead text-center">Why have any other Jam?</p>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row mx-5 p-4">
+      <!-- Grape Jelly -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block p-2">
+          <h4 class="item-card-title text-center p-2">Grape Jelly</h4>
+          <img src="./images/grapejelly.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">Perfect for the kids. A combination of big, juicy green, red and black
+            grapes, with just a hint of sugar.</p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#grape">Info</button>
         </div>
       </div>
 
-    <div class="container-fluid">
-
-      <div class="row mx-5 p-4">
-        <!-- Grape Jelly -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block p-2">
-              <h4 class="item-card-title text-center p-2">Grape Jelly</h4>
-              <img src="./images/grapejelly.png" class="card-image" alt="Photo of sunset"/>
-              <p class="card-text text-center">Perfect for the kids. A combination of big, juicy green, red and black grapes, with just a hint of sugar.</p>
-              <button class="btn btn-primary">Add to cart</button>
-              <button class="btn btn-primary" data-toggle="modal" data-target="#grape">Info</button>
-          </div>
-        </div>
-
-        <!-- Strawberry Jelly -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">Strawberry Jelly</h4>
-            <img
-              src="./images/Strawberry.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Why do plain, regular strawberry only jam - you can get that in
-              every grocery store in the country.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#strawberry">Info</button>
-          </div>
-        </div>
-
-        <!-- Apple Butter -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">Apple Butter</h4>
-            <img
-              src="./images/applebutter.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Just like my grandma's Apple Pie - we mix different kinds of
-              apples with the perfect apple pie spices.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#applebutter">Info</button>
-          </div>
+      <!-- Strawberry Jelly -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">Strawberry Jelly</h4>
+          <img src="./images/Strawberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Why do plain, regular strawberry only jam - you can get that in
+            every grocery store in the country.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#strawberry">Info</button>
         </div>
       </div>
 
-      <div class="row m-5 p-4">
-        <!-- Blackberry Jam -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">Blackberry Jam</h4>
-            <img
-              src="./images/Blackberry.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Smeared liberally on hot toast with lashings of butter, the
-              flavour is sinfully delicious.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#blackberry">Info</button>
-          </div>
+      <!-- Apple Butter -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">Apple Butter</h4>
+          <img src="./images/applebutter.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Just like my grandma's Apple Pie - we mix different kinds of
+            apples with the perfect apple pie spices.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#applebutter">Info</button>
         </div>
-      
+      </div>
+    </div>
 
-        <!-- Blueberry Jam -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">Blueberry Jam</h4>
-            <img
-              src="./images/blueberry.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Our Blueberry jam combines the healthful tang of locally grown
-              blueberries with decadent flavor.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#blueberry">Info</button>
-          </div>
-        </div>
-
-        <!-- Mixberry Jelly -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">Mixberry Jelly</h4>
-            <img
-              src="./images/mixberry.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Primarily available in the summer and fall, you’re doing yourself
-              a disservice if you miss out on this flavor.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#mixberry">Info</button>
-          </div>
+    <div class="row m-5 p-4">
+      <!-- Blackberry Jam -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">Blackberry Jam</h4>
+          <img src="./images/Blackberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Smeared liberally on hot toast with lashings of butter, the
+            flavour is sinfully delicious.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#blackberry">Info</button>
         </div>
       </div>
 
-      <div class="row m-5 p-4">
-         <!-- Ginger Cardamom Pear Butter -->
-         <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">
-              Ginger Cardamom Pear Butter
-            </h4>
-            <img
-              src="./images/Ginger-Cardamom-Pear-Butter.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Prepared from organic cows cream, simmering ginger, and pears.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#ginger">Info</button>
-          </div>
-        </div>
-        
 
-        <!-- Cinnamon Spiced Triple Berry Jam -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">
-              Cinnamon Spiced Triple Berry Jam
-            </h4>
-            <img
-              src="./images/Cinnamon-Spiced-Triple-Berry-Jam.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              The whole shop smells so yummy it is hard to concentrate,
-              cinnamon, berries and spices.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#triple">Info</button>
-          </div>
-        </div>
-
-        <!-- Cinnamon Blueberry Jam -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">Cinnamon Blueberry Jam</h4>
-            <img
-              src="./images/cinnamonblueberry.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              As its name suggests, this jam is a glorious merger of whole
-              blueberries, cinnamon, and strawberries.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#cinnamon-blueberry">Info</button>
-          </div>
+      <!-- Blueberry Jam -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">Blueberry Jam</h4>
+          <img src="./images/blueberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Our Blueberry jam combines the healthful tang of locally grown
+            blueberries with decadent flavor.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#blueberry">Info</button>
         </div>
       </div>
 
-      <div class="row m-5 p-4">
+      <!-- Mixberry Jelly -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">Mixberry Jelly</h4>
+          <img src="./images/mixberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Primarily available in the summer and fall, you’re doing yourself
+            a disservice if you miss out on this flavor.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#mixberry">Info</button>
+        </div>
+      </div>
+    </div>
 
-       <!-- Raspberry Jam -->
-       <div class="col-lg-4 p-4">
+    <div class="row m-5 p-4">
+      <!-- Ginger Cardamom Pear Butter -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">
+            Ginger Cardamom Pear Butter
+          </h4>
+          <img src="./images/Ginger-Cardamom-Pear-Butter.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Prepared from organic cows cream, simmering ginger, and pears.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#ginger">Info</button>
+        </div>
+      </div>
+
+
+      <!-- Cinnamon Spiced Triple Berry Jam -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">
+            Cinnamon Spiced Triple Berry Jam
+          </h4>
+          <img src="./images/Cinnamon-Spiced-Triple-Berry-Jam.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            The whole shop smells so yummy it is hard to concentrate,
+            cinnamon, berries and spices.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#triple">Info</button>
+        </div>
+      </div>
+
+      <!-- Cinnamon Blueberry Jam -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">Cinnamon Blueberry Jam</h4>
+          <img src="./images/cinnamonblueberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            As its name suggests, this jam is a glorious merger of whole
+            blueberries, cinnamon, and strawberries.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#cinnamon-blueberry">Info</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-5 p-4">
+
+      <!-- Raspberry Jam -->
+      <div class="col-lg-4 p-4">
         <div class="card item-card card-block px-2 py-2">
           <h4 class="item-card-title text-center p-2">Raspberry Jam</h4>
-          <img
-            src="./images/raspberry.png"
-            class="card-image"
-            alt="Photo of sunset"
-          />
+          <img src="./images/raspberry.png" class="card-image" alt="Photo of sunset" />
           <p class="card-text text-center">
             Fat, juice, fresh raspberries and the smoky heat of chipotle
             peppers drenched in adobo sauce.
@@ -246,346 +205,290 @@
         </div>
       </div>
 
-        <!-- Lemon Jam -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">Lemon Jam</h4>
-            <img
-              src="./images/lemon.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Lemon is our heavenly, thick, rich, sweet, just a little dab will
-              do ya.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#lemon">Info</button>
-          </div>
-        </div>
-
-        <!-- Super Berry Jelly -->
-        <div class="col-lg-4 p-4">
-          <div class="card item-card card-block px-2 py-2">
-            <h4 class="item-card-title text-center p-2">Super Berry Jelly</h4>
-            <img
-              src="./images/superberry.png"
-              class="card-image"
-              alt="Photo of sunset"
-            />
-            <p class="card-text text-center">
-              Sweet strawberries, giant blueberries and a little organic lambic
-              raspberry beer! Jam pack jam.
-            </p>
-            <button class="btn btn-primary">Add to cart</button>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#superberry">Info</button>
-          </div>
+      <!-- Lemon Jam -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">Lemon Jam</h4>
+          <img src="./images/lemon.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Lemon is our heavenly, thick, rich, sweet, just a little dab will
+            do ya.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#lemon">Info</button>
         </div>
       </div>
-    </div> <!-- end of container-->
 
-
-
-    <div class="footer container-fluid position-sticky">
-      <div class="row d-flex align-items-center">
-
-          <div class="col-lg-2 my-2">
-            <img src="./images/jamsjellieslogo.png" width="100px" height="100px">
-          </div>
-
-          <div class="col-lg-7 text-center my-2">
-              <!-- Facebook -->
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f fa-lg mr-lg-5 mr-3 fa-2x"> </i>
-            </a>
-            <!-- Twitter -->
-            <a class="tw-ic">
-              <i class="fab fa-twitter fa-lg mr-lg-5 mr-3 fa-2x"> </i>
-            </a>
-            <!-- Google +-->
-            <a class="gplus-ic">
-              <i class="fab fa-google-plus-g fa-lg mr-lg-5 mr-3 fa-2x"> </i>
-            </a>
-            <!--Linkedin -->
-            <a class="li-ic">
-              <i class="fab fa-linkedin-in fa-lg mr-lg-5 mr-3 fa-2x"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic">
-              <i class="fab fa-instagram fa-lg mr-lg-5 mr-3 fa-2x"> </i>
-            </a>
-            <!--Pinterest-->
-            <a class="pin-ic">
-              <i class="fab fa-pinterest fa-lg fa-2x"> </i>
-            </a>
-          </div>
-
-          <div class="col-lg-3 my-3 d-flex justify-content-center align-items-center">
-              <ul class="d-flex align-items-start flex-column">
-                <li class="p-2"> Address: 1414 S Tryon St
-                  Charlotte, NC 28203</li>
-                <li class="p-2"> Phone: 704-123-4567</li>
-                <li class="p-2"> Email: info@MHJamsandJellies.com</li>
-              </ul>
-          </div>
-
+      <!-- Super Berry Jelly -->
+      <div class="col-lg-4 p-4">
+        <div class="card item-card card-block px-2 py-2">
+          <h4 class="item-card-title text-center p-2">Super Berry Jelly</h4>
+          <img src="./images/superberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Sweet strawberries, giant blueberries and a little organic lambic
+            raspberry beer! Jam pack jam.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#superberry">Info</button>
+        </div>
       </div>
+    </div>
+  </div> <!-- end of container-->
+
+
+
+  <div class="footer container-fluid position-sticky">
+    <div class="row d-flex align-items-center">
+
+      <div class="col-lg-2 my-2">
+        <img src="./images/jamsjellieslogo.png" width="100px" height="100px">
+      </div>
+
+      <div class="col-lg-7 text-center my-2">
+        <!-- Facebook -->
+        <a class="fb-ic">
+          <i class="fab fa-facebook-f fa-lg mr-lg-5 mr-3 fa-2x"> </i>
+        </a>
+        <!-- Twitter -->
+        <a class="tw-ic">
+          <i class="fab fa-twitter fa-lg mr-lg-5 mr-3 fa-2x"> </i>
+        </a>
+        <!-- Google +-->
+        <a class="gplus-ic">
+          <i class="fab fa-google-plus-g fa-lg mr-lg-5 mr-3 fa-2x"> </i>
+        </a>
+        <!--Linkedin -->
+        <a class="li-ic">
+          <i class="fab fa-linkedin-in fa-lg mr-lg-5 mr-3 fa-2x"> </i>
+        </a>
+        <!--Instagram-->
+        <a class="ins-ic">
+          <i class="fab fa-instagram fa-lg mr-lg-5 mr-3 fa-2x"> </i>
+        </a>
+        <!--Pinterest-->
+        <a class="pin-ic">
+          <i class="fab fa-pinterest fa-lg fa-2x"> </i>
+        </a>
+      </div>
+
+      <div class="col-lg-3 my-3 d-flex justify-content-center align-items-center">
+        <ul class="d-flex align-items-start flex-column">
+          <li class="p-2"> Address: 1414 S Tryon St
+            Charlotte, NC 28203</li>
+          <li class="p-2"> Phone: 704-123-4567</li>
+          <li class="p-2"> Email: info@MHJamsandJellies.com</li>
+        </ul>
+      </div>
+
+    </div>
   </div>
 
-    <!-- MODALS -->
+  <!-- MODALS -->
 
-        <!-- Grape modal -->
-        <div class="modal fade" id="grape">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content text-center">
-              <h4 class="item-card-title text-center modal-header">Grape Jelly - Nutritional Facts</h4>
-              <div class="modal-body">
-              <img
-                src="./images/grapejelly.png"
-                class="card-image"
-                alt="Photo of sunset"
-              />
-              <p class="card-text text-center">Organic Sugar, Water, Organic Concord Grape Juice Concentrate, Citric Acid, Fruit Pectin</p>
-              <button class="btn btn-primary">Add to cart</button>
-            </div>
-            </div>
-          </div>
+  <!-- Grape modal -->
+  <div class="modal fade" id="grape">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Grape Jelly - Nutritional Facts</h4>
+        <div class="modal-body">
+          <img src="./images/grapejelly.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">Organic Sugar, Water, Organic Concord Grape Juice Concentrate, Citric Acid,
+            Fruit Pectin</p>
+          <button class="btn btn-primary">Add to cart</button>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <!-- Strawberry Modal -->
-          <div class="modal fade" id="strawberry">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Strawberry Jelly</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/Strawberry.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Water, Organic Strawberries, Organic Cane Sugar, Citric Acid, Natural Flavor, Organic Fruit And Vegetable Juice [Color]
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Strawberry Modal -->
+  <div class="modal fade" id="strawberry">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Strawberry Jelly</h4>
+        <div class="modal-body">
+          <img src="./images/Strawberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Water, Organic Strawberries, Organic Cane Sugar, Citric Acid, Natural Flavor, Organic Fruit And Vegetable
+            Juice [Color]
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Apple Butter Modal -->
-          <div class="modal fade" id="applebutter">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Apple Butter</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/applebutter.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Apples, Cinnamon, Allspice, Brown Sugar, Honey
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Apple Butter Modal -->
+  <div class="modal fade" id="applebutter">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Apple Butter</h4>
+        <div class="modal-body">
+          <img src="./images/applebutter.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Apples, Cinnamon, Allspice, Brown Sugar, Honey
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Blackberry Jam Modal -->
-          <div class="modal fade" id="blackberry">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Blackberry Jam</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/Blackberry.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Organic Seedless Blackberry Puree, Organic Cane Sugar, Fruit Pectin
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Blackberry Jam Modal -->
+  <div class="modal fade" id="blackberry">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Blackberry Jam</h4>
+        <div class="modal-body">
+          <img src="./images/Blackberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Organic Seedless Blackberry Puree, Organic Cane Sugar, Fruit Pectin
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Blueberry Jam Modal -->
-          <div class="modal fade" id="blueberry">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Blueberry Jam</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/blueberry.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Organic Wild Blueberries, Organic Cane Sugar, Apple Pectin
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Blueberry Jam Modal -->
+  <div class="modal fade" id="blueberry">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Blueberry Jam</h4>
+        <div class="modal-body">
+          <img src="./images/blueberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Organic Wild Blueberries, Organic Cane Sugar, Apple Pectin
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Mixberry Jelly Modal -->
-          <div class="modal fade" id="mixberry">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Mixberry Jelly</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/mixberry.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Strawberries (Organic), Raspberries (Organic), Blueberries (Organic), Grape Puree (Organic), Water, Lemon Juice Concentrate (Organic), Dried Sugar Cane Syrup (Organic), Fruit Pectin 
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Mixberry Jelly Modal -->
+  <div class="modal fade" id="mixberry">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Mixberry Jelly</h4>
+        <div class="modal-body">
+          <img src="./images/mixberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Strawberries (Organic), Raspberries (Organic), Blueberries (Organic), Grape Puree (Organic), Water, Lemon
+            Juice Concentrate (Organic), Dried Sugar Cane Syrup (Organic), Fruit Pectin
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Raspberry Jam Modal -->
-          <div class="modal fade" id="raspberry">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Raspberry Jelly</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/raspberry.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Organic Cane Sugar, Organic Raspberries, Fruit Pectin, Citric Acid.
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Raspberry Jam Modal -->
+  <div class="modal fade" id="raspberry">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Raspberry Jelly</h4>
+        <div class="modal-body">
+          <img src="./images/raspberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Organic Cane Sugar, Organic Raspberries, Fruit Pectin, Citric Acid.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Cinnamon Spiced Triple Berry Jam Modal -->
-          <div class="modal fade" id="triple">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Cinnamon Spiced Triple Berry Jam</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/Cinnamon-Spiced-Triple-Berry-Jam.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Berry Mix- (Organic Strawberries, Organic Blackberries, Organic Blueberries), Water, Organic Sugar, Fruit Pectin, Calcium Chloride, Citric Acid, Cinnamon, Allspice, Nutmeg
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Cinnamon Spiced Triple Berry Jam Modal -->
+  <div class="modal fade" id="triple">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Cinnamon Spiced Triple Berry Jam</h4>
+        <div class="modal-body">
+          <img src="./images/Cinnamon-Spiced-Triple-Berry-Jam.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Berry Mix- (Organic Strawberries, Organic Blackberries, Organic Blueberries), Water, Organic Sugar, Fruit
+            Pectin, Calcium Chloride, Citric Acid, Cinnamon, Allspice, Nutmeg
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Cinnamon Blueberry Jam Modal-->
-          <div class="modal fade" id="cinnamon-blueberry">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Cinnamon Blueberry Jam</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/cinnamonblueberry.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Organic Wild Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin, Ascorbic Acid (Vitamin C), Citric Acid.
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Cinnamon Blueberry Jam Modal-->
+  <div class="modal fade" id="cinnamon-blueberry">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Cinnamon Blueberry Jam</h4>
+        <div class="modal-body">
+          <img src="./images/cinnamonblueberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Organic Wild Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin, Ascorbic Acid (Vitamin C), Citric Acid.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Ginger Cardamom Pear Butter Modal -->
-          <div class="modal fade" id="ginger">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Ginger Cardamom Pear Butter</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/Ginger-Cardamom-Pear-Butter.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Bartlett Pears, Organic Evaporated Cane Juice, Cardamom, Ginger, Lemon Juice, Salt
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Ginger Cardamom Pear Butter Modal -->
+  <div class="modal fade" id="ginger">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Ginger Cardamom Pear Butter</h4>
+        <div class="modal-body">
+          <img src="./images/Ginger-Cardamom-Pear-Butter.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Bartlett Pears, Organic Evaporated Cane Juice, Cardamom, Ginger, Lemon Juice, Salt
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Lemon Jam Modal -->
-          <div class="modal fade" id="lemon">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Lemon Jam</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/lemon.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Meyer Lemons, Fresh Meyer Lemon Juice, Organic Cane Juice
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Lemon Jam Modal -->
+  <div class="modal fade" id="lemon">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Lemon Jam</h4>
+        <div class="modal-body">
+          <img src="./images/lemon.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Meyer Lemons, Fresh Meyer Lemon Juice, Organic Cane Juice
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <!-- Super Berry Jelly Modal -->
-          <div class="modal fade" id="superberry">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content text-center">
-                <h4 class="item-card-title text-center modal-header">Super Berry Jelly</h4>
-                <div class="modal-body">
-                <img
-                  src="./images/superberry.png"
-                  class="card-image"
-                  alt="Photo of sunset"
-                />
-                <p class="card-text text-center">
-                  Wild Blueberries, Organic Strawberries, Organic Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin, Ascorbic Acid (Vitamin C), Citric Acid.
-                </p>
-                <button class="btn btn-primary">Add to cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Super Berry Jelly Modal -->
+  <div class="modal fade" id="superberry">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <h4 class="item-card-title text-center modal-header">Super Berry Jelly</h4>
+        <div class="modal-body">
+          <img src="./images/superberry.png" class="card-image" alt="Photo of sunset" />
+          <p class="card-text text-center">
+            Wild Blueberries, Organic Strawberries, Organic Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin,
+            Ascorbic Acid (Vitamin C), Citric Acid.
+          </p>
+          <button class="btn btn-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

@@ -1,5 +1,5 @@
 .jumboheaderimg {
-  background-color: #FFF;
+  background-color: #fff;
   background-size: cover;
   color: #ff5c5c;
 }
@@ -81,29 +81,27 @@ p {
   transform: scale3d(1, 1, 1);
 }
 
-.header, .footer {
-  background-color:#161E67;
+.header,
+.footer {
+  background-color: #161e67;
 }
-
 
 nav ul li {
   font-size: 18px;
 }
-
 
 ul {
   list-style-type: none;
 }
 
 li {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-weight: 400;
   font-size: 12px;
   text-align: left;
-
-}  
+}
 
 i {
-  color:#FF5C5C;
+  color: #ff5c5c;
 }
