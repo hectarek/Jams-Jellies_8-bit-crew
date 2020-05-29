@@ -218,3 +218,20 @@ i {
   background-size: cover;
   background-position: center;
 }
+
+.row-fluid {
+
+  background-color: #ff5c5c;
+}
+
+.row-1 {
+  height: 100px;
+  margin-top: 30px;
+}
+.button1 {
+  background-color: #161e67;
+}
+
+h5 {
+  height: 90px;
+}
