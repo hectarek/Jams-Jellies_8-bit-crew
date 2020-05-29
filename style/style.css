@@ -218,3 +218,20 @@ i {
   background-size: cover;
   background-position: center;
 }
+
+#jumbo {
+  background-image: url("../images/jumbotronjelly.jpg");
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#jumbo h1 {
+  color: #161e67;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+#jumbo p {
+  font-size: 1.25em;
+  font-weight: bold;
+}
