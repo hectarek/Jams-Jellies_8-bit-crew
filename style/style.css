@@ -235,3 +235,28 @@ i {
 h5 {
   height: 90px;
 }
+/* new style  */
+.carousel{
+    background-color: #E9ECEF ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+   
+.carousel-item{
+   text-align: center;
+   position: relative;
+   min-height: 280px;
+   font-size:20px;
+   padding-top:20px;
+   padding-bottom:20px;
+   padding-left:20px;
+   padding-right:20px;
+}
+
+.bs-example{
+   margin: 40px;
+} 
