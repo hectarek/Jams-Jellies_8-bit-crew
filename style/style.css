@@ -219,6 +219,35 @@ i {
   background-position: center;
 }
 
-/* .p-3, .h2Class {
- color:#161e67;
-} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+/* .carousel-caption {
+  background: rgba(0, 0, 0, 0.35);
+}  */
+
+
+ .p-3{
+   font-weight: 400;
+   
+  /* background: rgba(0, 0, 0, 0.35); */
+} 
